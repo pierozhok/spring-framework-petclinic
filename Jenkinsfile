@@ -27,7 +27,8 @@ pipeline {
                                 passedtest = true
                                 tests = true
 			        try {
-                                        sh 'mvn clean package -Dcheckstyle.skip -Dspring.profiles.active=PostgreSQL'
+                                        sh './mvnw jetty:run-war -P PostgreSQL'
+                                        //sh 'mvn clean package -Dcheckstyle.skip -Dspring.profiles.active=PostgreSQL'
                                 } catch (Exception e) {
                                         passedtest = false
                                 }
