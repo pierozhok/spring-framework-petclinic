@@ -27,7 +27,7 @@ pipeline {
                                 passedtest = true
                                 tests = true
 			        try {
-                                        sh 'mvn -U clean deploy -Dcheckstyle.skip -Dspring.profiles.active=PostgreSQL'
+                                        sh 'mvn clean package -Dcheckstyle.skip -Dspring.profiles.active=PostgreSQL'
                                 } catch (Exception e) {
                                         passedtest = false
                                 }
