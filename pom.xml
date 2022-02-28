@@ -95,7 +95,7 @@
             <dependency>
                 <groupId>org.springframework.data</groupId>
                 <artifactId>spring-data-bom</artifactId>
-                <version>${calver.major.minor}</version>
+                <version>2021.1.2</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
