@@ -152,28 +152,28 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
-            <version>${spring-framework.version}</version>
+            <version>2.3.2</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-orm</artifactId>
-            <version>${spring-framework.version}</version>
+            <version>5.3.16</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-            <version>${spring-framework.version}</version>
+            <version>5.3.16</version>
         </dependency>
         <!-- used for EhCacheCacheManager -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context-support</artifactId>
-            <version>${spring-framework.version}</version>
+            <version>5.3.16</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-oxm</artifactId>
-            <version>${spring-framework.version}</version>
+            <version>5.3.16</version>
         </dependency>
 
         <dependency>
@@ -262,7 +262,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-            <version>${spring-framework.version}</version>
+            <version>5.3.16</version>
             <scope>test</scope>
         </dependency>
         <dependency>
