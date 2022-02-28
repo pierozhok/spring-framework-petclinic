@@ -70,10 +70,6 @@ pipeline {
                                         }
                                 
                                      }
-                         
-                        //cleanup {
-                        //        cleanWs()
-                        //}
                         }
                         failure {
 
@@ -81,7 +77,8 @@ pipeline {
 
                          }
                         cleanup {
-                                cleanWs() }
+                                cleanWs() 
+                        }
 		}
-       }
+       
 }
