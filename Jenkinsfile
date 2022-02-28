@@ -1,6 +1,6 @@
 pipeline {
         
-	agent { label 'agent1' }
+	agent { label 'ag' }
         
 	environment {
 	        boolean passedtest = false
